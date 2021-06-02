@@ -1,0 +1,62 @@
+header {
+  color: #7fdbff;
+  margin-left: 20px;
+  margin-top: 20px;
+  /*background-image: url("statta.PNG");*/
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+}
+a:link {
+  color: #7fdbff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7fdbff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+header .logo a {
+  background-image: url("statta3.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  position: relative;
+  text-indent: -9999999999999999999px;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+#dropdown {
+  width: 150px;
+  height: 0px;
+  color: black;
+  float: right;
+  position: relative;
+  top: -33px;
+}
+#weathertrends {
+  background-image: url("statta.png");
+  background-size: cover;
+}
